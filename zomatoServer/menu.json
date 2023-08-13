@@ -1,0 +1,26 @@
+[
+    {
+        "dishId": 1,
+        "dishName": "tea",
+        "dishPrice": 10.0,
+        "dishAvailability": "yes"
+    },
+    {
+        "dishId": 2,
+        "dishName": "maggie",
+        "dishPrice": 30.0,
+        "dishAvailability": "yes"
+    },
+    {
+        "dishId": 3,
+        "dishName": "pizza",
+        "dishPrice": 200.0,
+        "dishAvailability": "yes"
+    },
+    {
+        "dishId": 4,
+        "dishName": "pasta",
+        "dishPrice": 100.0,
+        "dishAvailability": "yes"
+    }
+]

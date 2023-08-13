@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Page</title>
+    <link rel="stylesheet" href="./styles/order.css">
+</head>
+<body>
+    <nav>
+        <a href="./index.html"><button>Menu</button></a>
+    </nav>
+    <div id="container">
+        <div id="order-box">
+            <!-- Display orders in table view -->
+            
+        </div>
+        <div id="makeorder-box">
+            <!-- Make new order form -->
+            <form id="orderForm">
+                <label for="customer-name">Customer Name:</label>
+                <input type="text" id="customer-name" required>
+                <br>
+                
+                <div id="dish-selections">
+                    <h4>Available Dishes:</h4>
+                    <h6>.</h6>
+                    <p>Select Dishes:</p>
+                    <h6>.</h6>
+                    <!-- Options for dishes will be dynamically added here -->
+                </div>
+            
+                <br>
+                <input type="submit" value="Place Order">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+<script src="./scripts/order.js"></script>

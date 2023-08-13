@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Page</title>
+    <link rel="stylesheet" href="./styles/menu.css">
+
+</head>
+<body>
+    <nav>
+        <a href="./order.html"><button>Orders</button></a>
+    </nav>
+    <div id="container">
+        <div id="box-left">
+            <!-- add menu in table view -->
+        </div>
+        <div id="box-right">
+                <form>
+                    <input type="text" id="dish-name" placeholder="Enter Dish Name" required>
+                    <input type="number" id="dish-price" placeholder="Enter Dish Price" required>
+                    <select id="dish-availability" required>
+                        <option value="">Select Availability</option>
+                        <option value="yes">YES</option>
+                        <option value="no">NO</option>
+                    </select>
+                    <input type="submit" value="Add Dish">
+                </form>
+            </div>
+    </div>
+</body>
+</html>
+<script src="./scripts/menu.js"></script>
